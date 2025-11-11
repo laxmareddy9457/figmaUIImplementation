@@ -33,7 +33,7 @@ const Loginpage = () => {
                         </section>
                     </div>
                     <div className="flex justify-end w-full">
-                        <a href="#" className="text-sm transition-colors hover:text-blue-800 hover:underline forgotpass">Forgot Password?</a>
+                        <Link to="/" className="text-sm transition-colors hover:text-blue-800 hover:underline forgotpass">Forgot Password?</Link>
                     </div>
                     <button type="submit" className="loginbtn">
                         Login</button>
