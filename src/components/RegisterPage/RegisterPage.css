@@ -1,0 +1,107 @@
+.registerCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../resources/background.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.registercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 631px;
+    height: 582px;
+    padding: 40px;
+    gap: 32px;
+    border-radius: 24px;
+    border: 1px solid #F3F4F6;
+    background: #FFF;
+    box-shadow: 0 16px 32px rgba(36, 100, 228, 0.2);
+}
+
+.logotext {
+    color: #2464E4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+.registermainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    width: 100%;
+}
+
+.registerheading {
+    color: #1F2937;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+}
+
+.logoCon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.submitbtn {
+    background-color: #2464E4;
+    color: white;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnwthOutline {
+    background-color: white;
+    color: #2464E4;
+    padding: 4px 20px;
+    border: 1px solid #2464E4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media(max-width: 640px) {
+    .registercard {
+        width: 90%;
+        gap: 14px;
+        height: 510px;
+    }
+
+    .registerheading {
+        font-size: 16px;
+    }
+
+    .logotext {
+        font-size: 18px;
+    }
+
+    .buttoncon {
+        margin-top: 20px !important;
+    }
+
+    .btnwthOutline,
+    .submitbtn {
+        padding: 6px 14px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:344px) {
+    .registercard {
+        padding: 20px;
+    }
+}
