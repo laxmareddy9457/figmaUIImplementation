@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     width: 490px;
-    height: 514px;
+    height: 530px;
     padding: 40px;
     gap: 32px;
     border-radius: 24px;
@@ -41,16 +41,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    gap: 24px;
     width: 100%;
     margin-top: 0 !important;
+    font-family: 'poppins';
+    font-size: 14px;
 }
 
 .loginHeading {
     color: #1F2937;
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: -0.56px;
 }
 
@@ -62,18 +63,16 @@
 }
 
 .inputLabel {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
     font-weight: 500;
     color: #374151;
 }
 
 .inputField {
-    font-size: 16px;
     border: none;
     outline: none;
     border-radius: 4px;
     width: 100%;
+    font-weight: 400;
 }
 
 .inputContainer {
@@ -95,7 +94,6 @@
 }
 
 .loginBtn {
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     text-align: center;
     color: #FFF;
@@ -105,10 +103,10 @@
     width: 100%;
     padding: 12px 0;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .createAccountBtn {
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #2464E4;
     border: none;
@@ -116,6 +114,7 @@
     width: 100%;
     padding: 12px 0;
     cursor: pointer;
+    font-weight: 500;
     text-align: center;
 }
 
