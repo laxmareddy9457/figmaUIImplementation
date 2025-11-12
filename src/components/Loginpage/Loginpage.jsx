@@ -22,14 +22,14 @@ const Loginpage = () => {
                         <div className="inputGroup">
                             <label className="inputLabel fontSmall" htmlFor="email">Email</label>
                             <section className='inputContainer'>
-                                <input type="email" id="email" className="text-[#687080] inputField fontSmall" placeholder="Enter Email" />
+                                <input type="email" id="email" className="text-[#111827] inputField fontSmall" placeholder="Enter Email" />
                             </section>
                         </div>
 
                         <div className="inputGroup">
                             <label className="inputLabel fontSmall" htmlFor="password">Password</label>
                             <section className='inputContainer'>
-                                <input type={showPassword ? "text" : "password"} id="password" className="text-[#687080] inputField fontSmall" placeholder="Enter Password" />
+                                <input type={showPassword ? "text" : "password"} id="password" className="text-[#111827] inputField fontSmall" placeholder="Enter Password" />
                                 {showPassword ? <FaRegEyeSlash className='cursor-pointer eyeicon' size={20} color={'#374151'} onClick={togglePasswordVisibility} /> : <FaRegEye className='cursor-pointer eyeicon' color={'#374151'} size={20} onClick={togglePasswordVisibility} />}
                             </section>
                         </div>
