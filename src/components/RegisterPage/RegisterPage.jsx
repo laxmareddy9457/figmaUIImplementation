@@ -5,42 +5,40 @@ import { Link } from 'react-router-dom';
 
 const RegisterPage = () => {
     return (
-        <div className='registerCon'>
-            <div className='registercard'>
-                <div className="logoCon">
-                    <h1 className="logotext">DFW Operating Authority Online Portal(DEV)</h1>
-                </div>
-                <form className="registermainbody">
-                    <h1 className="registerheading">Create your Account</h1>
+        <div className='min-h-screen registerContainer'>
+            <div className='registerCard'>
+                <h1 className="logoText">DFW Operating Authority Online Portal(DEV)</h1>
+                <form className="registerMainBody">
+                    <h1 className="registerHeading">Create your Account</h1>
 
-                    <div className="inputgroup">
-                        <label className="inputlabel text-[14px]" htmlFor="firstname" required >First Name<span className='ml-1 text-red-600'>*</span></label>
-                        <section className='inputcon'>
-                            <input type="text" id="firstname" className="inputfield" placeholder="Enter First Name" />
+                    <div className="inputGroup">
+                        <label className="inputLabel fontSmall text-[14px]" htmlFor="firstname" required >First Name<span className='ml-1 text-red-600'>*</span></label>
+                        <section className='inputContainer'>
+                            <input type="text" id="firstname" className="inputField fontSmall" placeholder="Enter First Name" />
 
                         </section>
                     </div>
-                    <div className="inputgroup">
-                        <label className="inputlabel text-[14px]" htmlFor="lastname" required >Last Name<span className='ml-1 text-red-600'>*</span></label>
-                        <section className='inputcon'>
-                            <input type="text" id="lastname" className="inputfield" placeholder="Enter Last Name" />
+                    <div className="inputGroup">
+                        <label className="inputLabel fontSmall text-[14px]" htmlFor="lastname" required >Last Name<span className='ml-1 text-red-600'>*</span></label>
+                        <section className='inputContainer'>
+                            <input type="text" id="lastname" className="inputField fontSmall" placeholder="Enter Last Name" />
                         </section>
                     </div>
-                    <div className="inputgroup">
-                        <label className="inputlabel text-[14px]" htmlFor="title" required >Title<span className='ml-1 text-red-600'>*</span></label>
-                        <section className='inputcon'>
-                            <input type="text" id="title" className="inputfield" placeholder="Enter Title" />
+                    <div className="inputGroup">
+                        <label className="inputLabel fontSmall text-[14px]" htmlFor="title" required >Title<span className='ml-1 text-red-600'>*</span></label>
+                        <section className='inputContainer'>
+                            <input type="text" id="title" className="inputField fontSmall" placeholder="Enter Title" />
                         </section>
                     </div>
-                    <div className="inputgroup">
-                        <label className="inputlabel text-[14px]" htmlFor="email" required >Email<span className='ml-1 text-red-600'>*</span></label>
-                        <section className='inputcon'>
-                            <input type="email" id="email" className="inputfield" placeholder="Enter Email" />
+                    <div className="inputGroup">
+                        <label className="inputLabel fontSmall text-[14px]" htmlFor="email" required >Email<span className='ml-1 text-red-600'>*</span></label>
+                        <section className='inputContainer'>
+                            <input type="email" id="email" className="inputField fontSmall" placeholder="Enter Email" />
                         </section>
                     </div>
-                    <div className='flex justify-end w-full gap-3 mt-10 buttoncon'>
-                        <Link to="/" className='btnwthOutline'>Cancel</Link>
-                        <button type="submit" className="submitbtn">Submit</button>
+                    <div className='flex justify-end w-full gap-3 mt-10 buttonContainer'>
+                        <Link to="/" className='btnWthOutline'>Cancel</Link>
+                        <button type="submit" className="submitBtn">Submit</button>
                     </div>
                 </form>
             </div>

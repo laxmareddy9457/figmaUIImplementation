@@ -1,4 +1,4 @@
-.registerCon {
+.registerContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.registercard {
+.registerCard {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@
     box-shadow: 0 16px 32px rgba(36, 100, 228, 0.2);
 }
 
-.logotext {
+.logoText {
     color: #2464E4;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -30,7 +30,7 @@
 
 }
 
-.registermainbody {
+.registerMainBody {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -38,7 +38,7 @@
     width: 100%;
 }
 
-.registerheading {
+.registerHeading {
     color: #1F2937;
 
     font-family: 'Poppins', sans-serif;
@@ -47,16 +47,7 @@
     letter-spacing: -0.56px;
 }
 
-.logoCon {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-
-
-}
-
-.submitbtn {
+.submitBtn {
     background-color: #2464E4;
     color: white;
     padding: 4px 20px;
@@ -65,7 +56,7 @@
     cursor: pointer;
 }
 
-.btnwthOutline {
+.btnWthOutline {
     background-color: white;
     color: #2464E4;
     padding: 4px 20px;
@@ -75,33 +66,33 @@
 }
 
 @media(max-width: 640px) {
-    .registercard {
+    .registerCard {
         width: 90%;
         gap: 14px;
         height: 510px;
     }
 
-    .registerheading {
+    .registerHeading {
         font-size: 16px;
     }
 
-    .logotext {
+    .logoText {
         font-size: 18px;
     }
 
-    .buttoncon {
+    .buttonContainer {
         margin-top: 20px !important;
     }
 
-    .btnwthOutline,
-    .submitbtn {
+    .btnWthOutline,
+    .submitBtn {
         padding: 6px 14px;
         font-size: 12px;
     }
 }
 
 @media (max-width:344px) {
-    .registercard {
+    .registerCard {
         padding: 20px;
     }
 }
