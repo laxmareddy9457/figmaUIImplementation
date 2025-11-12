@@ -33,7 +33,7 @@ const Loginpage = () => {
                         </section>
                     </div>
                     <div className="flex justify-end w-full">
-                        <Link to="/" className="text-sm transition-colors text-[#2563EB]  hover:underline max-sm:text-xs">Forgot Password?</Link>
+                        <Link to="/" className="text-sm transition-colors text-[#2563EB] underline max-sm:text-xs">Forgot Password?</Link>
                     </div>
                     <div className='flex flex-col gap-[24px] w-full'>
                         <button type="submit" className="loginBtn">
