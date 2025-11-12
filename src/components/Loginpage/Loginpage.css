@@ -63,7 +63,7 @@
 
 .inputLabel {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #374151;
 }
@@ -96,7 +96,7 @@
 
 .loginBtn {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     color: #FFF;
     background-color: #2464E4;
@@ -109,12 +109,11 @@
 
 .createAccountBtn {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #2464E4;
     border: none;
     border-radius: 8px;
     width: 100%;
-    margin-top: 10px;
     padding: 12px 0;
     cursor: pointer;
     text-align: center;
