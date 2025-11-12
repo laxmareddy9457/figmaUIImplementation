@@ -91,7 +91,7 @@
 
 .inputContainer:focus-within {
     border: 2px solid #2464E4;
-    box-shadow: 0 0 0 4px #afc9fd;
+    box-shadow: 0 0 0 3px #afc9fd;
 }
 
 .loginBtn {
